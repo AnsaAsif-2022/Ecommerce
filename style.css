@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.btn .btn-danger{
+    background-color: red;
+    border-color: red;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn.btn-danger:hover{
+    color: red;
+    background-color: transparent;
+}
+
+/* nevigation css */
+#header .fixed-top{
+    box-shadow:0 0.125rem 0.675rem rgb(0 0 0 /5%);
+}
+#header .navbar-nav .nav-link{
+    color: black;
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#header .navbar-nav .nav-link:hover,
+#header .navbar-nav .nav-link.active{
+    color: red;
+}
+#header .navbar-toggler-icon{
+    width: unset;
+    height: unset;
+}
+#header .navbar-toggler:focus{
+    box-shadow: none;
+}
+.home .home-banner1{
+    background-image: url(images/image\ 3\ container.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 650px;
+    background-image:fixed;
+}
+.home .home-banner2{
+    background-image: url(images/ledise-top-jeans-500x500.webp);
+    background-position: 90% center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 650px;
+    width: 100%;
+  
+}
+
+.home .home-banner-text1{
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    color: black;
+    transform: translate(-110% , -50%);
+
+}
+    
+
+    
+.home .home-banner-text2{
+    position: absolute;
+    top: 50%;
+    margin-left: 50%;
+    color: black;
+    transform: translate(-80% , -50%);
+}
+
+.home .home-banner-text1 h1{
+    font-size: 6rem;
+}
+.home .home-banner-text1 h2{
+    font: size 4.5rem; ;
+}
+.home .home-banner-text2 h1{
+    font-size: 6rem;
+}
+.home .home-banner-text2 h2{
+    font: size 4.5rem; ;
+}
+
+.home .carousel-control-prev [data-bs-target],
+.home .carousel-control-next [data-bs-target] {
+font-weight: 600;
+color: red;
+font-size:6rem;
+}
+.home .carousel-indicators [data-bs-target] {
+    background-color: red;
+    width: 10%;
+}
+
