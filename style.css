@@ -42,7 +42,7 @@
     box-shadow: none;
 }
 .home .home-banner1{
-    background-image: url(images/image\ 3\ container.jpg);
+    background-image: url(images/container.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@
     background-image:fixed;
 }
 .home .home-banner2{
-    background-image: url(images/ledise-top-jeans-500x500.webp);
+    background-image: url(images/container\ 2.jpg);
     background-position: 90% center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,4 +103,190 @@ font-size:6rem;
     background-color: red;
     width: 10%;
 }
+
+
+.heading-bigger{
+    font-size: 700;
+    font-size: 4.375rem;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+    margin-top: 50px;
+}
+/* Style for product box */
+.product-list {
+  padding: 15px 15px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 50px;
+}
+
+/* Sale tag styling */
+.sale {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 10px; /* Adds space between badge & image */
+}
+
+
+
+/* Hover effect for image swap */
+.product-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.product-image-secondary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.product-image:hover .product-image-secondary {
+    opacity: 1;
+}
+
+.product-image:hover .product-image-first {
+    opacity: 0;
+}
+
+/* Button styling */
+.add_to_cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.add_to_cart:hover {
+    background-color: #218838;
+}
+.product-list .product-name h3{
+    font-size: 20px;
+    color: black;
+}
+.product-list .product-name h3:hover{
+color: red;
+}
+.product a{
+    text-decoration: none;
+}
+.product .headline h2{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+.headline h2::before{
+    width: 30%;
+    height: 0.125rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.product-list .product-name .amount{
+    color: red;
+}
+.product-list .product-name .amount{
+    color: red;
+}
+.product-list .product-name .amount del {
+    color: gray;
+}
+.product-list .product-name .fa-regular{
+    color: gray;
+}
+.product-list .product-name .fa-regular.active{
+    color: red;
+}
+
+.Special .filter h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 50px 50px;
+}
+ul li{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
+}
+a{
+    list-style: none;
+    color: black;
+    
+}
+
+
+
+.special-image img{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.special-image img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    text-align: center; /* Center the buttons */
+}
+
+ul li {
+    display: inline-block; /* Make the list horizontal */
+    margin: 20px;
+}
+
+.buttons {
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.buttons.active {
+    background-color: gray;
+    color: white;
+}
+
+.buttons:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+  
+
+
 
